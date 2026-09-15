@@ -1,0 +1,57 @@
+[2026-09-15 12:38:16.085] [Information] Microsoft.Hosting.Lifetime
+Now listening on: https://localhost:7056
+--------------------------------------------------------------------------------
+[2026-09-15 12:38:16.095] [Information] Microsoft.Hosting.Lifetime
+Now listening on: http://localhost:5229
+--------------------------------------------------------------------------------
+[2026-09-15 12:38:16.163] [Information] Microsoft.Hosting.Lifetime
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2026-09-15 12:38:16.164] [Information] Microsoft.Hosting.Lifetime
+Hosting environment: Development
+--------------------------------------------------------------------------------
+[2026-09-15 12:38:16.164] [Information] Microsoft.Hosting.Lifetime
+Content root path: C:\Users\turalvh\source\repos\MinimalApi\MinimalApi
+--------------------------------------------------------------------------------
+[2026-09-15 12:40:32.350] [Information] Microsoft.Hosting.Lifetime
+Now listening on: https://localhost:7056
+--------------------------------------------------------------------------------
+[2026-09-15 12:40:32.360] [Information] Microsoft.Hosting.Lifetime
+Now listening on: http://localhost:5229
+--------------------------------------------------------------------------------
+[2026-09-15 12:40:32.437] [Information] Microsoft.Hosting.Lifetime
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2026-09-15 12:40:32.438] [Information] Microsoft.Hosting.Lifetime
+Hosting environment: Development
+--------------------------------------------------------------------------------
+[2026-09-15 12:40:32.439] [Information] Microsoft.Hosting.Lifetime
+Content root path: C:\Users\turalvh\source\repos\MinimalApi\MinimalApi
+--------------------------------------------------------------------------------
+[2026-09-15 12:40:47.903] [Information] MinimalApi
+Create book executed. Id: 3, Name: Muzeffer
+--------------------------------------------------------------------------------
+[2026-09-15 12:41:06.631] [Information] MinimalApi
+GetAll books executed. Count: 3
+--------------------------------------------------------------------------------
+[2026-09-15 12:43:06.888] [Information] Microsoft.Hosting.Lifetime
+Now listening on: https://localhost:7056
+--------------------------------------------------------------------------------
+[2026-09-15 12:43:06.898] [Information] Microsoft.Hosting.Lifetime
+Now listening on: http://localhost:5229
+--------------------------------------------------------------------------------
+[2026-09-15 12:43:06.967] [Information] Microsoft.Hosting.Lifetime
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2026-09-15 12:43:06.968] [Information] Microsoft.Hosting.Lifetime
+Hosting environment: Development
+--------------------------------------------------------------------------------
+[2026-09-15 12:43:06.968] [Information] Microsoft.Hosting.Lifetime
+Content root path: C:\Users\turalvh\source\repos\MinimalApi\MinimalApi
+--------------------------------------------------------------------------------
+[2026-09-15 12:43:19.638] [Information] [201] MinimalApi
+Create book executed. StatusCode: 201, Id: 4, Name: Muzik
+--------------------------------------------------------------------------------
+[2026-09-15 12:43:34.495] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
