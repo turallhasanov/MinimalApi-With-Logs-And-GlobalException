@@ -1,0 +1,268 @@
+[2026-09-16 12:03:10.598] [Information] Microsoft.Hosting.Lifetime
+Now listening on: https://localhost:7056
+--------------------------------------------------------------------------------
+[2026-09-16 12:03:10.618] [Information] Microsoft.Hosting.Lifetime
+Now listening on: http://localhost:5229
+--------------------------------------------------------------------------------
+[2026-09-16 12:03:10.623] [Information] Microsoft.Hosting.Lifetime
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2026-09-16 12:03:10.624] [Information] Microsoft.Hosting.Lifetime
+Hosting environment: Development
+--------------------------------------------------------------------------------
+[2026-09-16 12:03:10.625] [Information] Microsoft.Hosting.Lifetime
+Content root path: C:\Users\turalvh\source\repos\MinimalApi\MinimalApi
+--------------------------------------------------------------------------------
+[2026-09-16 12:03:22.935] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:03:23.841] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:03:36.836] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:04:52.090] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:05:20.200] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:06:33.622] [Information] [200] MinimalApi
+GetById book executed. StatusCode: 200, Id: 1
+--------------------------------------------------------------------------------
+[2026-09-16 12:06:45.530] [Information] [200] MinimalApi
+GetById book executed. StatusCode: 200, Id: 1
+--------------------------------------------------------------------------------
+[2026-09-16 12:07:38.580] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:12:29.959] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:14:10.565] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:14:13.097] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:14:14.080] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:16:57.703] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:16:58.304] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:16:58.721] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:17:02.882] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:17:04.976] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:17:08.954] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:18:44.102] [Error] Microsoft.Extensions.Hosting.Internal.Host
+Hosting failed to start
+System.IO.IOException: Failed to bind to address https://127.0.0.1:7056: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+--------------------------------------------------------------------------------
+[2026-09-16 12:24:27.674] [Information] Microsoft.Hosting.Lifetime
+Now listening on: https://localhost:7056
+--------------------------------------------------------------------------------
+[2026-09-16 12:24:27.685] [Information] Microsoft.Hosting.Lifetime
+Now listening on: http://localhost:5229
+--------------------------------------------------------------------------------
+[2026-09-16 12:24:27.760] [Information] Microsoft.Hosting.Lifetime
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2026-09-16 12:24:27.761] [Information] Microsoft.Hosting.Lifetime
+Hosting environment: Development
+--------------------------------------------------------------------------------
+[2026-09-16 12:24:27.762] [Information] Microsoft.Hosting.Lifetime
+Content root path: C:\Users\turalvh\source\repos\MinimalApi\MinimalApi
+--------------------------------------------------------------------------------
+[2026-09-16 12:24:44.935] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:24:51.018] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 4
+--------------------------------------------------------------------------------
+[2026-09-16 12:25:01.333] [Information] [201] MinimalApi
+Create book executed. StatusCode: 201, Id: 5, Name: AbdullahBey
+--------------------------------------------------------------------------------
+[2026-09-16 12:25:01.343] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 5
+--------------------------------------------------------------------------------
+[2026-09-16 12:25:09.676] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 5
+--------------------------------------------------------------------------------
+[2026-09-16 12:29:45.216] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 5
+--------------------------------------------------------------------------------
+[2026-09-16 12:30:05.393] [Information] [200] MinimalApi
+GetById book executed. StatusCode: 200, Id: 1
+--------------------------------------------------------------------------------
+[2026-09-16 12:30:24.553] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 5
+--------------------------------------------------------------------------------
+[2026-09-16 12:30:31.747] [Information] [200] MinimalApi
+GetById book executed. StatusCode: 200, Id: 1
+--------------------------------------------------------------------------------
+[2026-09-16 12:30:35.311] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 5
+--------------------------------------------------------------------------------
+[2026-09-16 12:30:48.550] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 5
+--------------------------------------------------------------------------------
+[2026-09-16 12:43:20.007] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 5
+--------------------------------------------------------------------------------
+[2026-09-16 12:43:29.392] [Information] [201] MinimalApi
+Create book executed. StatusCode: 201, Id: 6, Name: mmmm
+--------------------------------------------------------------------------------
+[2026-09-16 12:43:29.401] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 6
+--------------------------------------------------------------------------------
+[2026-09-16 12:43:36.634] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 6
+--------------------------------------------------------------------------------
+[2026-09-16 12:43:44.933] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 6
+--------------------------------------------------------------------------------
+[2026-09-16 12:43:52.146] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 6
+--------------------------------------------------------------------------------
+[2026-09-16 12:44:21.182] [Information] Microsoft.Hosting.Lifetime
+Now listening on: https://localhost:7056
+--------------------------------------------------------------------------------
+[2026-09-16 12:44:21.193] [Information] Microsoft.Hosting.Lifetime
+Now listening on: http://localhost:5229
+--------------------------------------------------------------------------------
+[2026-09-16 12:44:21.264] [Information] Microsoft.Hosting.Lifetime
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2026-09-16 12:44:21.265] [Information] Microsoft.Hosting.Lifetime
+Hosting environment: Development
+--------------------------------------------------------------------------------
+[2026-09-16 12:44:21.265] [Information] Microsoft.Hosting.Lifetime
+Content root path: C:\Users\turalvh\source\repos\MinimalApi\MinimalApi
+--------------------------------------------------------------------------------
+[2026-09-16 12:44:22.308] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 6
+--------------------------------------------------------------------------------
+[2026-09-16 12:44:27.450] [Information] [201] MinimalApi
+Create book executed. StatusCode: 201, Id: 7, Name: gdgdgd
+--------------------------------------------------------------------------------
+[2026-09-16 12:44:27.506] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 7
+--------------------------------------------------------------------------------
+[2026-09-16 12:44:32.806] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 7
+--------------------------------------------------------------------------------
+[2026-09-16 12:45:05.676] [Information] [200] MinimalApi
+GetById book executed. StatusCode: 200, Id: 1
+--------------------------------------------------------------------------------
+[2026-09-16 12:45:07.052] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 7
+--------------------------------------------------------------------------------
+[2026-09-16 12:45:08.598] [Information] [200] MinimalApi
+GetById book executed. StatusCode: 200, Id: 6
+--------------------------------------------------------------------------------
+[2026-09-16 12:45:09.779] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 7
+--------------------------------------------------------------------------------
+[2026-09-16 12:45:10.907] [Information] [200] MinimalApi
+GetById book executed. StatusCode: 200, Id: 6
+--------------------------------------------------------------------------------
+[2026-09-16 12:45:13.119] [Information] [204] MinimalApi
+Delete book executed. StatusCode: 204, Id: 6
+--------------------------------------------------------------------------------
+[2026-09-16 12:45:13.129] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 6
+--------------------------------------------------------------------------------
+[2026-09-16 12:45:15.662] [Information] [200] MinimalApi
+GetById book executed. StatusCode: 200, Id: 7
+--------------------------------------------------------------------------------
+[2026-09-16 12:45:16.583] [Information] [204] MinimalApi
+Delete book executed. StatusCode: 204, Id: 7
+--------------------------------------------------------------------------------
+[2026-09-16 12:45:16.594] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 5
+--------------------------------------------------------------------------------
+[2026-09-16 12:45:24.140] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 5
+--------------------------------------------------------------------------------
+[2026-09-16 12:45:25.014] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 5
+--------------------------------------------------------------------------------
+[2026-09-16 12:47:13.369] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 5
+--------------------------------------------------------------------------------
+[2026-09-16 12:47:13.432] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 5
+--------------------------------------------------------------------------------
+[2026-09-16 12:59:14.820] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 5
+--------------------------------------------------------------------------------
+[2026-09-16 12:59:29.997] [Information] Microsoft.Hosting.Lifetime
+Now listening on: https://localhost:7056
+--------------------------------------------------------------------------------
+[2026-09-16 12:59:30.007] [Information] Microsoft.Hosting.Lifetime
+Now listening on: http://localhost:5229
+--------------------------------------------------------------------------------
+[2026-09-16 12:59:30.074] [Information] Microsoft.Hosting.Lifetime
+Application started. Press Ctrl+C to shut down.
+--------------------------------------------------------------------------------
+[2026-09-16 12:59:30.075] [Information] Microsoft.Hosting.Lifetime
+Hosting environment: Development
+--------------------------------------------------------------------------------
+[2026-09-16 12:59:30.076] [Information] Microsoft.Hosting.Lifetime
+Content root path: C:\Users\turalvh\source\repos\MinimalApi\MinimalApi
+--------------------------------------------------------------------------------
+[2026-09-16 12:59:31.134] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 5
+--------------------------------------------------------------------------------
+[2026-09-16 12:59:37.398] [Information] [201] MinimalApi
+Create book executed. StatusCode: 201, Id: 8, Name: zzzzzzzz
+--------------------------------------------------------------------------------
+[2026-09-16 12:59:37.454] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 6
+--------------------------------------------------------------------------------
+[2026-09-16 12:59:42.017] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 6
+--------------------------------------------------------------------------------
+[2026-09-16 12:59:51.691] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 6
+--------------------------------------------------------------------------------
+[2026-09-16 13:00:13.177] [Information] [200] MinimalApi
+GetAll books executed. StatusCode: 200, Count: 6
+--------------------------------------------------------------------------------

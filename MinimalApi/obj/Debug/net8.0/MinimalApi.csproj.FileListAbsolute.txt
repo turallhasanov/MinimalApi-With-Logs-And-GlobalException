@@ -2,10 +2,6 @@ C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\appsettings
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\appsettings.json
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\MinimalApi.staticwebassets.endpoints.json
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\MinimalApi.exe
-C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\MinimalApi.deps.json
-C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\MinimalApi.runtimeconfig.json
-C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\MinimalApi.dll
-C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\MinimalApi.pdb
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\Humanizer.dll
@@ -129,6 +125,7 @@ C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\MinimalApi.
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\MinimalApi.csproj.CoreCompileInputs.cache
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\MinimalApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\MinimalApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\MinimalApi.sourcelink.json
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -142,6 +139,10 @@ C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\MinimalApi.
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\MinimalApi.dll
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\refint\MinimalApi.dll
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\MinimalApi.pdb
+C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\MinimalApi.deps.json
+C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\MinimalApi.runtimeconfig.json
+C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\MinimalApi.dll
+C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\bin\Debug\net8.0\MinimalApi.pdb
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\MinimalApi.genruntimeconfig.cache
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\ref\MinimalApi.dll
 C:\Users\turalvh\source\repos\MinimalApi\MinimalApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

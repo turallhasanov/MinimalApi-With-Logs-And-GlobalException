@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__1",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__2",
     "RelativePath": "books",
     "HttpMethod": "GET",
     "IsController": false,
@@ -9,15 +9,17 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "System.Collections.Generic.List\u00601[[MinimalApi.Models.Book, MinimalApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
         "StatusCode": 200
       }
     ]
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__3",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__4",
     "RelativePath": "books",
     "HttpMethod": "POST",
     "IsController": false,
@@ -39,7 +41,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__2",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__3",
     "RelativePath": "books/{id:int}",
     "HttpMethod": "GET",
     "IsController": false,
@@ -61,7 +63,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__4",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__5",
     "RelativePath": "books/{id:int}",
     "HttpMethod": "PUT",
     "IsController": false,
@@ -88,7 +90,7 @@
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
-    "Method": "\u003C\u003CMain\u003E$\u003Eb__5",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__6",
     "RelativePath": "books/{id:int}",
     "HttpMethod": "DELETE",
     "IsController": false,

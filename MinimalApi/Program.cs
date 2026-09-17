@@ -13,6 +13,11 @@ builder.Services.AddProblemDetails();
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+        policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+});
 
 var app = builder.Build();
 
@@ -23,8 +28,28 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+else
+{
+    app.UseHttpsRedirection();
+}
 
-app.UseHttpsRedirection();
+app.UseCors();
+
+if (app.Configuration.GetValue<bool>("EnableTestErrorRoutes"))
+{
+    app.MapGet("/test/not-found", () =>
+    {
+        throw new KeyNotFoundException("Book was not found");
+    });
+    app.MapGet("/test/bad-request", () =>
+    {
+        throw new ArgumentException("Name is required");
+    });
+    app.MapGet("/test/server-error", () =>
+    {
+        throw new InvalidOperationException("SQL connection failed");
+    });
+}
 
 var log = app.Logger;
 
@@ -33,7 +58,8 @@ app.MapGet("/books", async (AppDbContext db) =>
     var books = await db.Books.ToListAsync();
     log.LogInformation("GetAll books executed. StatusCode: {StatusCode}, Count: {Count}", StatusCodes.Status200OK, books.Count);
     return Results.Ok(books);
-});
+})
+.Produces<List<Book>>(StatusCodes.Status200OK);
 
 app.MapGet("/books/{id:int}", async (int id, AppDbContext db) =>
 {
@@ -88,3 +114,5 @@ app.MapDelete("/books/{id:int}", async (int id, AppDbContext db) =>
 });
 
 app.Run();
+
+public partial class Program { }

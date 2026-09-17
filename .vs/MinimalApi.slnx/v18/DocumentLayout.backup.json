@@ -3,44 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|c:\\users\\turalvh\\source\\repos\\minimalapi\\minimalapi\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6FBFEEE-2D41-BDF9-D30B-37B2CE953581}|MinimalApi\\MinimalApi.csproj|c:\\users\\turalvh\\source\\repos\\minimalapi\\minimalapi\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FBFEEE-2D41-BDF9-D30B-37B2CE953581}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|c:\\users\\turalvh\\source\\repos\\minimalapi\\minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A3C80F5-60A6-848C-AA98-AD5710C803D8}|MinimalApi.Tests\\MinimalApi.Tests.csproj|c:\\users\\turalvh\\source\\repos\\minimalapi\\minimalapi.tests\\helpers\\minimalapifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A3C80F5-60A6-848C-AA98-AD5710C803D8}|MinimalApi.Tests\\MinimalApi.Tests.csproj|solutionrelative:minimalapi.tests\\helpers\\minimalapifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|c:\\users\\turalvh\\source\\repos\\minimalapi\\minimalapi\\minimalapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\minimalapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|c:\\users\\turalvh\\source\\repos\\minimalapi\\minimalapi\\logging\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\logging\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|c:\\users\\turalvh\\source\\repos\\minimalapi\\minimalapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|c:\\users\\turalvh\\source\\repos\\minimalapi\\minimalapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|c:\\users\\turalvh\\source\\repos\\minimalapi\\minimalapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|c:\\users\\turalvh\\source\\repos\\minimalapi\\minimalapi\\migrations\\20260915074208_createdbooktable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\migrations\\20260915074208_createdbooktable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|c:\\users\\turalvh\\source\\repos\\minimalapi\\minimalapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|c:\\users\\turalvh\\source\\repos\\minimalapi\\minimalapi\\minimalapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3ADF1819-873B-4DE2-813A-F48D0D3E80FB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\minimalapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C6FBFEEE-2D41-BDF9-D30B-37B2CE953581}|MinimalApi\\MinimalApi.csproj|c:\\users\\turalvh\\source\\repos\\minimalapi\\minimalapi\\logging\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FBFEEE-2D41-BDF9-D30B-37B2CE953581}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\logging\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,126 +32,35 @@
               "RelativeDocumentMoniker": "MinimalApi\\Middleware\\GlobalExceptionHandler.cs",
               "ToolTip": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Middleware\\GlobalExceptionHandler.cs",
               "RelativeToolTip": "MinimalApi\\Middleware\\GlobalExceptionHandler.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T08:35:22.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "MinimalApi\\Models\\Book.cs",
-              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Models\\Book.cs",
-              "RelativeToolTip": "MinimalApi\\Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T07:32:46.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FileLogger.cs",
-              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Logging\\FileLogger.cs",
-              "RelativeDocumentMoniker": "MinimalApi\\Logging\\FileLogger.cs",
-              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Logging\\FileLogger.cs",
-              "RelativeToolTip": "MinimalApi\\Logging\\FileLogger.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAUwAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T08:29:37.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Program.cs",
-              "RelativeDocumentMoniker": "MinimalApi\\Program.cs",
-              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Program.cs",
-              "RelativeToolTip": "MinimalApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T07:35:40.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "MinimalApi\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Migrations\\AppDbContextModelSnapshot.cs",
-              "RelativeToolTip": "MinimalApi\\Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T08:29:35.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "MinimalApi\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "MinimalApi\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T07:36:27.411Z",
+              "WhenOpened": "2026-09-17T08:10:15.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MinimalApi.http",
-              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\MinimalApi.http",
-              "RelativeDocumentMoniker": "MinimalApi\\MinimalApi.http",
-              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\MinimalApi.http",
-              "RelativeToolTip": "MinimalApi\\MinimalApi.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-09-15T08:21:06.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20260915074208_CreatedBookTable.cs",
-              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Migrations\\20260915074208_CreatedBookTable.cs",
-              "RelativeDocumentMoniker": "MinimalApi\\Migrations\\20260915074208_CreatedBookTable.cs",
-              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Migrations\\20260915074208_CreatedBookTable.cs",
-              "RelativeToolTip": "MinimalApi\\Migrations\\20260915074208_CreatedBookTable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "FileLogger.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Logging\\FileLogger.cs",
+              "RelativeDocumentMoniker": "MinimalApi\\Logging\\FileLogger.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\Logging\\FileLogger.cs",
+              "RelativeToolTip": "MinimalApi\\Logging\\FileLogger.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T07:42:08.851Z",
+              "WhenOpened": "2026-09-17T08:07:28.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "MinimalApi\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\appsettings.Development.json",
-              "RelativeToolTip": "MinimalApi\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-15T07:35:15.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MinimalApi",
-              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\MinimalApi.csproj",
-              "RelativeDocumentMoniker": "MinimalApi\\MinimalApi.csproj",
-              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi\\MinimalApi.csproj",
-              "RelativeToolTip": "MinimalApi\\MinimalApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-15T07:31:58.09Z",
+              "DocumentIndex": 1,
+              "Title": "MinimalApiFactory.cs",
+              "DocumentMoniker": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi.Tests\\Helpers\\MinimalApiFactory.cs",
+              "RelativeDocumentMoniker": "MinimalApi.Tests\\Helpers\\MinimalApiFactory.cs",
+              "ToolTip": "C:\\Users\\turalvh\\source\\repos\\MinimalApi\\MinimalApi.Tests\\Helpers\\MinimalApiFactory.cs",
+              "RelativeToolTip": "MinimalApi.Tests\\Helpers\\MinimalApiFactory.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T08:03:23.28Z",
               "EditorCaption": ""
             }
           ]
